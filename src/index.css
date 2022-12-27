@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply text-gray-700 text-xs leading-5;
+  font-family: "Roboto", sans-serif;
+}
+#e86EQipBRVT2_to {
+  animation: e86EQipBRVT2_to__to 3000ms linear infinite normal backwards;
+}
+@keyframes e86EQipBRVT2_to__to {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+#e86EQipBRVT3_to {
+  animation: e86EQipBRVT3_to__to 3000ms linear infinite normal backwards;
+}
+@keyframes e86EQipBRVT3_to__to {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+#e86EQipBRVT4_to {
+  animation: e86EQipBRVT4_to__to 3000ms linear infinite normal backwards;
+}
+@keyframes e86EQipBRVT4_to__to {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+#e86EQipBRVT5_to {
+  animation: e86EQipBRVT5_to__to 3000ms linear infinite normal backwards;
+}
+@keyframes e86EQipBRVT5_to__to {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}

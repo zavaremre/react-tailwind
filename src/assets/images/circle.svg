@@ -1,0 +1,19 @@
+<svg id="e72hiYOpekd1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 250" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style><![CDATA[
+#e72hiYOpekd2_to {animation: e72hiYOpekd2_to__to 3000ms linear infinite alternate backwards}@keyframes e72hiYOpekd2_to__to { 0% {offset-distance: 0%} 100% {offset-distance: 100%}} #e72hiYOpekd3_to {animation: e72hiYOpekd3_to__to 3000ms linear infinite alternate backwards}@keyframes e72hiYOpekd3_to__to { 0% {offset-distance: 0%} 100% {offset-distance: 100%}} #e72hiYOpekd4_to {animation: e72hiYOpekd4_to__to 3000ms linear infinite alternate backwards}@keyframes e72hiYOpekd4_to__to { 0% {offset-distance: 0%} 100% {offset-distance: 100%}} #e72hiYOpekd5_to {animation: e72hiYOpekd5_to__to 3000ms linear infinite alternate backwards}@keyframes e72hiYOpekd5_to__to { 0% {offset-distance: 0%} 100% {offset-distance: 100%}}
+]]>    </style>
+    <g id="e72hiYOpekd2_to" style="offset-path:path('M147.946117,82.490995C172.293582,83.884316,168.217997,42.035766,163.646932,60.148769');offset-rotate:0deg">
+        <circle r="14.5" transform="rotate(185.333973) translate(0.407921,-0.038091)" fill="#b6a4ff"/>
+    </g>
+    <g id="e72hiYOpekd3_to" style="offset-path:path('M163.321559,126.626816C182.601645,139.052651,179.731545,115.03484,179.435236,100.062913');offset-rotate:0deg">
+        <ellipse rx="17.5" ry="18" transform="rotate(185.333973) translate(0.151223,1.619772)" fill="#ffdaa4"/>
+    </g>
+    <g id="e72hiYOpekd4_to" style="offset-path:path('M126.814714,111.769464C124.14436,84.593365,129.317457,87.277468,144.833287,84.409952');offset-rotate:0deg">
+        <path d="M10.1154,46.9481c.6161-6.5987,6.4649-11.4486,13.0636-10.8326c6.5987.6161,11.4486,6.4649,10.8325,13.0636s-6.4648,11.4486-13.0635,10.8325-11.44865-6.4648-10.8326-13.0635Z" transform="translate(-22.063455,-48.06356)" fill="#a4deff"/>
+    </g>
+    <g id="e72hiYOpekd5_to" style="offset-path:path('M114.004587,72.642586C103.738855,73.166878,103.135401,74.768855,100.929487,81.720922');offset-rotate:0deg">
+        <path d="M0.790158,8.46318C1.22655,3.78909,5.36941,0.35375,10.0435,0.790141s8.1094,4.579259,7.673,9.253359-4.5792,8.1094-9.2533,7.673-8.109432-4.5792-7.673042-9.25332Z" transform="translate(-9.253329,-9.253322)" fill="#ffa4da"/>
+    </g>
+</svg>
