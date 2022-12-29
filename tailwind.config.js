@@ -13,7 +13,11 @@ module.exports = {
         xl: "465px",
       },
     },
-    extend: {},
+    extend: {
+      animation: {
+        ping: "ping 1300ms linear infinite",
+      },
+    },
   },
   plugins: [],
 };

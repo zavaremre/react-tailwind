@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import classNames from "classnames";
 import circle from "./assets/images/circle.svg";
 function App() {
   const [data] = useState({
-    title: "dfghfdfdfddfghdfhg",
+    title: "aaa",
     menu: [
       {
         id: 1,
@@ -33,7 +34,7 @@ function App() {
   const eee = "dwwefewferfgefefef";
   return (
     <main className='mt-20'>
-      <section className='container mb-10'>
+      <section className={classNames("container mb-10", { pill: true })}>
         <div className='relative flex justify-center w-full mb-3'>
           <img src={require("./assets/images/profile.png")} alt='fddfd' />
           <div className='absolute ml-32 -mt-14 rotate-45'>
@@ -59,30 +60,33 @@ function App() {
         </div>
       </section>
       <section className='container mb-10'>
-        <div className='relative after:content-[""]  after:absolute  after:top-0  after:left-1/2  after:right-0  after:w-px  after:h-full  after:bg-gray-200'>
-          <div className='flex w-full -ml-1.5'>
+        <div className='relative after:content-[""]  after:absolute  after:top-0  after:left-1/2  after:right-0  after:w-px  after:h-full  after:bg-gray-100 after:-ml-[0.5px]'>
+          <div className='flex w-full -ml-[6px]'>
             <div className='w-1/2'></div>
             <section className='flex mt-4 w-1/2'>
               <div className='relative flex w-full '>
                 <aside className='relative flex  items-start justify-start w-full ml-8'>
                   <div className='flex flex-col items-start w-full'>
                     <strong className='text-sm font-medium text-blue-600'>Jotform</strong>
-                    <strong className='text-xs opacity-70 font-normal mb-2'>UI Developer</strong>
-                    <small className='text-xs opacity-70'>Now</small>
+                    <strong className='text-xs font-normal mb-2 text-left'>UI Developer</strong>
+                    <small className='text-xs'>Now</small>
                   </div>
                 </aside>
-                <div className='absolute w-3 h-3 rounded-full bg-blue-600 mt-1 z-10 shrink-0'></div>
+
+                <div className='absolute w-3 h-3 rounded-full bg-blue-600 mt-1 z-10 shrink-0'>
+                  <span className='animate-ping absolute -left-1 -top-1 inline-flex h-5 w-5 rounded-full bg-blue-400 opacity-75'></span>
+                </div>
               </div>
             </section>
           </div>
-          <div className='flex flex-row-reverse w-full ml-1.5'>
+          <div className='flex flex-row-reverse w-full ml-[6px]'>
             <div className='w-1/2'></div>
             <section className='flex mt-4 w-1/2'>
               <div className='relative flex flex-row-reverse w-full '>
                 <aside className='relative flex items-start justify-start w-full mr-8 text-gray-300'>
                   <div className='flex flex-col items-end w-full'>
                     <strong className='text-sm font-medium'>Allesgo</strong>
-                    <strong className='text-xs opacity-70 font-normal mb-2'>Front End Developer</strong>
+                    <strong className='text-xs opacity-70 font-normal mb-2 text-right'>Front End Developer</strong>
                     <small className='text-xs opacity-70'>+4 Year</small>
                   </div>
                 </aside>
@@ -90,14 +94,14 @@ function App() {
               </div>
             </section>
           </div>
-          <div className='flex w-full -ml-1.5'>
+          <div className='flex w-full -ml-[6px]'>
             <div className='w-1/2'></div>
             <section className='flex mt-4 w-1/2'>
               <div className='relative flex w-full '>
                 <aside className='relative flex  items-start justify-start w-full ml-8 text-gray-300'>
                   <div className='flex flex-col items-start w-full'>
                     <strong className='text-sm font-medium'>Platform New Media</strong>
-                    <strong className='text-xs opacity-70 font-normal mb-2'>UI Wordpress Developer</strong>
+                    <strong className='text-xs opacity-70 font-normal mb-2 text-left'>UI Wordpress Developer</strong>
                     <small className='text-xs opacity-70'>+1 Year</small>
                   </div>
                 </aside>
@@ -105,14 +109,14 @@ function App() {
               </div>
             </section>
           </div>
-          <div className='flex flex-row-reverse w-full ml-1.5'>
+          <div className='flex flex-row-reverse w-full ml-[6px]'>
             <div className='w-1/2'></div>
             <section className='flex mt-4 w-1/2'>
               <div className='relative flex flex-row-reverse w-full '>
                 <aside className='relative flex items-start justify-start w-full mr-8 text-gray-300'>
                   <div className='flex flex-col items-end w-full'>
                     <strong className='text-sm font-medium'>Medanis</strong>
-                    <strong className='text-xs opacity-70 font-normal mb-2'>UI Wordpress Developer</strong>
+                    <strong className='text-xs opacity-70 font-normal mb-2 text-right'>UI Wordpress Developer</strong>
                     <small className='text-xs opacity-70'>+2 Year</small>
                   </div>
                 </aside>
@@ -124,7 +128,7 @@ function App() {
       </section>
 
       <section className='container'>
-        <div className='w-full h-px bg-gray-200 mb-5'></div>
+        <div className='w-full h-px bg-gray-100 mb-5'></div>
         <div className='inline-flex justify-center items-center w-full mb-5'>
           <h2 className='text-sm font-medium border-b-2 border-gray-600 pb-0.5'>Blog</h2>
         </div>
