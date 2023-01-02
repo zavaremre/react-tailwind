@@ -1,5 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
+  darkMode: "class",
   theme: {
     container: {
       // you can configure the container to be centered
