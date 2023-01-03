@@ -51,18 +51,21 @@ function App() {
       title: "",
       content: "Derd-i firakın ile düşeli sevdaya mey'e Müptelayım, deliyim, düşmüşüm esrarı-ney'e Feleğin kahpe başında paralansın parası Ben güzel sevmeye geldim, değil ekmek yemeye",
       author: "Neyzen Tevfik",
+      image: "neyzen.png",
     },
     {
       id: 2,
       title: "",
       content: "Kaç yol, ağlamaklı olmuşum geceleri, Asıl, bizim aramızda güzeldir hasret Ve asıl biz biliriz kederi.",
       author: "Ahmed Arif",
+      image: "ahmed-arif.png",
     },
     {
       id: 3,
       title: "",
       content: "Kör karanlıkta açardık paslı gözlerimizi Dilimizde akşamdan kalma bir küfür Salonlar piyasalar sanat-sevicileri Derdim günüm insan arasına çıkarmaktı seni Yakanda bir amonyak çiçeği",
       author: "Can Yücel",
+      image: "can-yucel.png",
     },
   ]);
 
@@ -221,28 +224,30 @@ function App() {
           <h2 className='text-sm font-medium border-b-2 border-gray-600 dark:border-slate-800 pb-0.5'>Blog</h2>
         </div>
 
-        {blogs.map((blog, index) => {
-          return (
-            <section className='group'>
-              <article key={index} className='flex items-start gap-y-5 text-left'>
-                <img src={"https://placehold.co/70x70/eee/666/png?text=" + blog.author} className='mr-4 rounded' alt='' />
-
-                <div className='flex flex-col items-start border-l border-gray-100 dark:border-slate-800 pl-4'>
-                  <p className='block mb-3'>{blog.content}</p>
-                  <strong className='opacity-70'>{blog.author}</strong>
+        <section>
+          {blogs.map((blog, index) => {
+            return (
+              <article class='group'>
+                <div key={index} className='flex items-start gap-y-5 text-left'>
+                  {/* <img src={require("./assets/images/" + blog.image)} className='mr-5 w-24 rounded dark:grayscale' alt='' /> */}
+                  <div className='flex flex-col items-center'>
+                    <p className='block mb-3 text-center'>{blog.content}</p>
+                    <strong className='opacity-70'>{blog.author}</strong>
+                  </div>
+                </div>
+                <div className='group-last:hidden flex justify-center w-full my-5'>
+                  <svg width='93' height='6' viewBox='0 0 93 6' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                    <path
+                      className='dark:fill-slate-800'
+                      d='M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333334 0.333333 1.52724 0.333333 3ZM87.3333 2.99997C87.3333 4.47273 88.5272 5.66663 90 5.66663C91.4728 5.66663 92.6667 4.47272 92.6667 2.99996C92.6667 1.52721 91.4728 0.333298 90 0.333299C88.5272 0.333299 87.3333 1.52721 87.3333 2.99997ZM3 3.5L90 3.49997L90 2.49997L3 2.5L3 3.5Z'
+                      fill='#EEEEEE'
+                    />
+                  </svg>
                 </div>
               </article>
-              <div className='group-last:hidden flex justify-center w-full my-5'>
-                <svg width='93' height='6' viewBox='0 0 93 6' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                  <path
-                    d='M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333334 0.333333 1.52724 0.333333 3ZM87.3333 2.99997C87.3333 4.47273 88.5272 5.66663 90 5.66663C91.4728 5.66663 92.6667 4.47272 92.6667 2.99996C92.6667 1.52721 91.4728 0.333298 90 0.333299C88.5272 0.333299 87.3333 1.52721 87.3333 2.99997ZM3 3.5L90 3.49997L90 2.49997L3 2.5L3 3.5Z'
-                    fill='#EEEEEE'
-                  />
-                </svg>
-              </div>
-            </section>
-          );
-        })}
+            );
+          })}
+        </section>
       </section>
     </main>
   );
