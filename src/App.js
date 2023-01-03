@@ -90,7 +90,7 @@ function App() {
 
   return (
     <main className='mt-20'>
-      <button className='fixed bottom-10 right-10 flex flex-col justify-center items-center' onClick={darkModeToggle}>
+      <button className='fixed bottom-10 right-10 flex flex-col justify-center items-center z-30' onClick={darkModeToggle}>
         <div
           className={classNames("flex flex-col justify-center items-center w-10 h-10 rounded-full darkToggle mb-2", {
             "bg-white text-slate-900": dark,
