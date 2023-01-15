@@ -86,6 +86,7 @@ function App() {
       behavior: "smooth",
     });
   };
+  let year = new Date().getFullYear();
 
   return (
     <main className='mt-20 overflow-x-hidden'>
@@ -133,6 +134,12 @@ function App() {
           })}
         </section>
       </section>
+      <footer>
+        <section className='container'>
+          <div className='w-full h-px bg-gray-100 dark:bg-slate-800'></div>
+          <div className='flex justify-center items-center w-full font-medium py-5'>Copyright © {year} All Rights Reserved</div>
+        </section>
+      </footer>
     </main>
   );
 }
