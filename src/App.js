@@ -137,7 +137,7 @@ function App() {
       <footer>
         <section className='container'>
           <div className='w-full h-px bg-gray-100 dark:bg-slate-800'></div>
-          <div className='flex justify-center items-center w-full font-medium py-5'>Copyright © {year} All Rights Reserved</div>
+          <div className='flex justify-center items-center w-full font-medium pt-5 pb-8'>Copyright © {year} All Rights Reserved</div>
         </section>
       </footer>
     </main>
