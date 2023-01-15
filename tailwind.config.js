@@ -15,6 +15,9 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        custom: "0 0 20px #00000017;",
+      },
       animation: {
         ping: "ping 1300ms linear infinite",
       },
