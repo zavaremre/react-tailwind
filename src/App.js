@@ -88,12 +88,12 @@ function App() {
   };
 
   return (
-    <main className='mt-20'>
+    <main className='mt-20 overflow-x-hidden'>
       <Darkmode />
       <section className={classNames("container mb-10", { pill: true })}>
         <div className='relative flex justify-center w-full mb-3'>
           <Avatar data={data} />
-          <div className='pointer-events-none select-none hidden sm:block absolute ml-44 -mt-14 rotate-45'>
+          <div className='pointer-events-none select-none absolute ml-36 sm:ml-44 -mt-14 rotate-45'>
             <object width='250px' height='250px' type='image/svg+xml' data={circle}>
               Masthead animation
             </object>
