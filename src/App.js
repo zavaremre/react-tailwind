@@ -112,7 +112,7 @@ function App() {
   });
   const scrollTo = () => {
     window.scrollTo({
-      top: 1116,
+      top: 800,
       behavior: "smooth",
     });
   };
