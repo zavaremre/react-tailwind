@@ -16,7 +16,7 @@ function Timeline({ index, timeline }) {
           })}>
           <aside className={classNames("relative flex items-start justify-start w-full", { "mr-8": timeline.left, "ml-8": !timeline.left })}>
             <div
-              className={classNames("flex flex-col items-start w-full", {
+              className={classNames("flex flex-col items-start w-full whitespace-nowrap", {
                 "items-end": timeline.left,
                 "opacity-60": !timeline.isActive,
               })}>
@@ -26,7 +26,7 @@ function Timeline({ index, timeline }) {
                 })}>
                 {timeline.title}
               </strong>
-              <strong className='text-xs font-normal text-left mb-1'>{timeline.position}</strong>
+              <strong className='text-xs font-normal text-left mb-1  whitespace-nowrap'>{timeline.position}</strong>
               <small className='text-xs mb-1'>{timeline.type}</small>
               <small className='text-[10px]'>{timeline.time}</small>
             </div>

@@ -9,7 +9,6 @@ body {
 ::selection {
   @apply text-white bg-orange-500;
 }
-
 .avatar:after {
   background: linear-gradient(to top, #a4deff 0%, #ffdaa4 25%, #b6a4ff 50%, #ffa4da 75%, #a4deff 100%);
   background-size: 100% 1500px;
