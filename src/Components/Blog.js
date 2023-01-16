@@ -2,7 +2,7 @@ import React from "react";
 
 function Blog({ index, blog }) {
   return (
-    <article className='group'>
+    <article className='group snap-center w-full shrink-0 sm:shrink-1'>
       <div key={index} className='flex items-start gap-y-5 text-left'>
         {/* <img src={require("./assets/images/" + blog.image)} className='mr-5 w-24 rounded dark:grayscale' alt='' /> */}
         <div className='flex flex-col items-center'>
