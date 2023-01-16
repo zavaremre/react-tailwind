@@ -74,6 +74,36 @@ function App() {
       author: "Can Yücel",
       image: "can-yucel.png",
     },
+    {
+      id: 4,
+      title: "",
+      content:
+        "anamı yıkadılar-yudular kollarını yanlarına kodular bağladılar güvercin ayaklarını ak bezlere sardılar. dereleri tepeleri geçtiler yağmurlara tipilere vurdular vardılar yedi kat yerin altına anamı yatırdılar batırdılar kürekleri kabarmış bahar toprağına örttüler üzerini bi güzel yeşersin diye yaza",
+      author: "Hasan Hüseyin Korkmazgil",
+      image: "can-yucel.png",
+    },
+    {
+      id: 5,
+      title: "",
+      content:
+        "Sanma ki derdim güneşten ötürü; Ne çıkar bahar geldiyse? Bademler çiçek açtıysa? Ucunda ölüm yok ya. Hoş, olsa da korkacak mıyım zaten Güneşle gelecek ölümden? Ben ki her Nisan bir yaş daha genç, Her bahar biraz daha âşığım; Korkar mıyım? Ah, dostum, derdim başka…",
+      author: "Orhan Veli Kanık",
+      image: "can-yucel.png",
+    },
+    {
+      id: 6,
+      title: "",
+      content: "Gözünü aç daha meydan var iken, Dizginin canbaz elinde Neyzen! Girmedim ya kapısından baktım, Cennet'i at pazarı sandım ben",
+      author: "Neyzen Tevfik",
+      image: "can-yucel.png",
+    },
+    {
+      id: 7,
+      title: "",
+      content: "Fillerin ölümü muhteşemdir çocuk, Çekilir ormanların derinliğine... Nereye gittiğimi, Neden bittiğimi sorma artık; Gömülürüm belki kendi yüreğime...",
+      author: "Yusuf Hayaloğlu",
+      image: "can-yucel.png",
+    },
   ]);
 
   const [data] = useState({
