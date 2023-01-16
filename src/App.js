@@ -158,7 +158,7 @@ function App() {
           <h2 className='text-sm font-medium border-b-2 border-gray-600 dark:border-slate-800 pb-0.5'>Şiir & Çay</h2>
         </div>
 
-        <section className='flex sm:block snap-x snap-mandatory overflow-x-auto flex-nowrap sm:flex-wrap'>
+        <section>
           {blogs.map((blog, index) => {
             return <Blog key={index} blog={blog} index={index} />;
           })}
