@@ -15,6 +15,12 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        gold: "#ffdaa4",
+        melrose: "#b6a4ff",
+        anakiwa: "#a4deff",
+        rose: "#ffa4da",
+      },
       boxShadow: {
         custom: "0 0 20px #00000017;",
       },
