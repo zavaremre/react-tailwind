@@ -146,21 +146,21 @@ function App() {
       </section>
 
       <section className='container mb-10'>
-        <div className='relative after:content-[""]  after:absolute  after:top-0  after:left-1/2  after:right-0  after:w-px  after:h-full  after:bg-gray-100 after:dark:bg-slate-800 after:-ml-[0.5px]'>
+        <div className='relative after:content-[""]  after:absolute  after:top-0  after:left-1/2  after:right-0  after:w-px  after:h-full  after:bg-gray-100 after:dark:bg-black-800 after:-ml-[0.5px]'>
           {timeline.map((t, index) => {
             return <Timeline key={index} timeline={t} />;
           })}
         </div>
       </section>
       <section className='container mb-10'>
-        <div className='w-full h-px bg-gray-100 dark:bg-slate-800 my-5'></div>
+        <div className='w-full h-px bg-gray-100 dark:bg-black-800 my-5'></div>
         <div className='inline-flex justify-center items-center w-full mb-7'>
-          <h2 className='text-sm font-medium border-b-2 border-gray-600 dark:border-slate-800 pb-0.5'>Projeler</h2>
+          <h2 className='text-sm font-medium border-b-2 border-gray-600 dark:border-black-800 pb-0.5'>Projeler</h2>
         </div>
 
         <section>
           <div className='relative flex flex-col sm:flex-row justify-between w-full'>
-            <div className='project-1 flex flex-row sm:flex-col justify-between items-center bg-rose bg-opacity-10 dark:bg-slate-800 rounded-md p-4 w-full h-full'>
+            <div className='project-1 flex flex-row sm:flex-col justify-between items-center bg-rose bg-opacity-10 dark:bg-black-800 rounded-md p-4 w-full h-full'>
               <div className='shrink-0 px-5 mr-3 sm:mr-0 sm:mb-5 text-rose dark:text-inherit'>
                 <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='currentColor' class='bi bi-rocket-takeoff' viewBox='0 0 16 16'>
                   <path d='M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z' />
@@ -177,9 +177,9 @@ function App() {
               </div>
             </div>
             <div className='flex justify-center items-center mx-4'>
-              <div className='w-14 h-5 shrink-0 rounded-full z-[2] bg-white dark:bg-gray-900 -mx-12'></div>
+              <div className='w-14 h-5 shrink-0 rounded-full z-[2] bg-white dark:bg-black-900 -mx-12'></div>
             </div>
-            <div className='project-2 flex flex-row sm:flex-col justify-between items-center bg-anakiwa bg-opacity-10 dark:bg-slate-800 rounded-md p-4 w-full h-full'>
+            <div className='project-2 flex flex-row sm:flex-col justify-between items-center bg-anakiwa bg-opacity-10 dark:bg-black-800 rounded-md p-4 w-full h-full'>
               <div className='shrink-0 px-5 mr-3 sm:mr-0 sm:mb-5 text-anakiwa dark:text-inherit'>
                 <svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='currentColor' class='bi bi-rocket-takeoff' viewBox='0 0 16 16'>
                   <path d='M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z' />
@@ -199,9 +199,9 @@ function App() {
         </section>
       </section>
       <section className='container mb-10'>
-        <div className='w-full h-px bg-gray-100 dark:bg-slate-800 my-5'></div>
+        <div className='w-full h-px bg-gray-100 dark:bg-black-800 my-5'></div>
         <div className='inline-flex justify-center items-center w-full mb-7'>
-          <h2 className='text-sm font-medium border-b-2 border-gray-600 dark:border-slate-800 pb-0.5'>Şiir & Çay</h2>
+          <h2 className='text-sm font-medium border-b-2 border-gray-600 dark:border-black-800 pb-0.5'>Şiir & Çay</h2>
         </div>
 
         <section>
@@ -212,7 +212,7 @@ function App() {
       </section>
       <footer>
         <section className='container'>
-          <div className='w-full h-px bg-gray-100 dark:bg-slate-800'></div>
+          <div className='w-full h-px bg-gray-100 dark:bg-black-800'></div>
           <div className='flex justify-center items-center w-full font-medium pt-5 pb-8'>Copyright © {year} All Rights Reserved</div>
         </section>
       </footer>

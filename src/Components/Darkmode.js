@@ -16,8 +16,8 @@ function Darkmode({ index, Darkmode }) {
     <button className='fixed bottom-10 right-10 flex flex-col justify-center items-center z-30' onClick={darkModeToggle}>
       <div
         className={classNames("flex flex-col justify-center items-center w-10 h-10 rounded-full darkToggle mb-2", {
-          "bg-white text-slate-900": dark,
-          "bg-slate-900 text-white": !dark,
+          "bg-white text-black-900": dark,
+          "bg-black-900 text-white": !dark,
         })}>
         {dark ? (
           <div className='text-2xl'>

@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  @apply text-gray-600 text-xs leading-5 dark:bg-gray-900 dark:text-gray-300;
+  @apply text-gray-600 text-xs leading-5 dark:bg-black-900 dark:text-gray-300;
   font-family: "Roboto", sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
