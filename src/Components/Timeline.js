@@ -18,7 +18,7 @@ function Timeline({ index, timeline }) {
             <div
               className={classNames("flex flex-col items-start w-full whitespace-nowrap", {
                 "items-end": timeline.left,
-                "opacity-60": !timeline.isActive,
+                "opacity-60 dark:opacity-30": !timeline.isActive,
               })}>
               <strong
                 className={classNames("text-sm font-medium mb-1", {
@@ -35,7 +35,7 @@ function Timeline({ index, timeline }) {
           <div
             className={classNames("absolute w-3 h-3 rounded-full mt-1 z-10 shrink-0 pointer-events-none", {
               "bg-blue-600": timeline.isActive,
-              "bg-gray-300 dark:bg-black-800": !timeline.isActive,
+              "bg-gray-300 dark:bg-black-500": !timeline.isActive,
             })}>
             <span className={classNames("animate-ping absolute -left-1 -top-1 inline-flex h-5 w-5 rounded-full bg-blue-400  opacity-75", { hidden: !timeline.isActive })}></span>
           </div>
