@@ -146,7 +146,7 @@ function App() {
       </section>
 
       <section className='container mb-10'>
-        <div className='relative after:content-[""]  after:absolute  after:top-0  after:left-1/2  after:right-0  after:w-px  after:h-full  after:bg-gray-100 after:dark:bg-black-600 after:-ml-[0.5px]'>
+        <div className='relative after:content-[""]  after:absolute  after:top-0  after:left-1/2  after:right-0  after:w-px  after:h-full  after:bg-gray-100 after:dark:bg-black-600 after:rounded-2xl after:-ml-[0.5px]'>
           {timeline.map((t, index) => {
             return <Timeline key={index} timeline={t} />;
           })}
