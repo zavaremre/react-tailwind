@@ -12,9 +12,9 @@ function Blog({ index, blog }) {
       </div>
       <div className='group-last:hidden flex justify-center w-full my-5'>
         <div className='flex gap-x-3'>
-          <div className='w-1.5 h-1.5 rounded-full shrink-0 pointer-events-none bg-gray-300 dark:bg-black-800'></div>
-          <div className='w-5 h-1.5 rounded-full shrink-0 pointer-events-none bg-gray-300 dark:bg-black-800'></div>
-          <div className='w-1.5 h-1.5 rounded-full shrink-0 pointer-events-none bg-gray-300 dark:bg-black-800'></div>
+          <div className='w-1.5 h-1.5 rounded-full shrink-0 pointer-events-none bg-gray-300 dark:bg-black-500'></div>
+          <div className='w-5 h-1.5 rounded-full shrink-0 pointer-events-none bg-gray-300 dark:bg-black-500'></div>
+          <div className='w-1.5 h-1.5 rounded-full shrink-0 pointer-events-none bg-gray-300 dark:bg-black-500'></div>
         </div>
       </div>
     </article>
