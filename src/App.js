@@ -125,7 +125,7 @@ function App() {
         <div className='relative flex justify-center w-full pointer-events-none select-none mb-3'>
           <Avatar data={data} />
           <div className='absolute ml-36 sm:ml-44 -mt-14 rotate-45'>
-            <object width='250px' height='250px' type='image/svg+xml' data={circle}>
+            <object width='250px' height='250px' type='image/svg+xml' aria-label='circle animations' data={circle}>
               Masthead animation
             </object>
           </div>
@@ -136,7 +136,7 @@ function App() {
           <Bio />
           <div className='socials mb-4'></div>
           <div className='flex justify-center'>
-            <button onClick={scrollTo} className='text-blue-600 text-xs text-center font-semibold animate-bounce'>
+            <button onClick={scrollTo} className='text-blue-600 text-xs text-center font-semibold animate-bounce' aria-label='down site'>
               <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='currentColor' className='bi bi-chevron-down' viewBox='0 0 16 16'>
                 <path fillRule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z' />
               </svg>
